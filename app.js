@@ -11,4 +11,8 @@ app.get('/home',(req,res) =>{
     res.send('Hello Home page')
 })
 
+app.post('/house',(req,res) => {
+    res.send('Hello House Page')
+})
+
 
